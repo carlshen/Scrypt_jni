@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
 
         byte[] salt = new byte[0];
         try {
-            salt = "123456".getBytes("UTF-8");
+            salt = "abcdefg".getBytes("UTF-8");
         } catch (UnsupportedEncodingException e) {
             e.printStackTrace();
         }
