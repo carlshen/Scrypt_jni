@@ -7,7 +7,7 @@ apply plugin: 'kotlin-android-extensions'
 android {
     compileSdkVersion 27
     defaultConfig {
-        applicationId "dagger2.tutorial.kotlin.com.scrypt_jni"
+        applicationId "io.merculet.scrypt.jni"
         minSdkVersion 15
         targetSdkVersion 27
         versionCode 1
