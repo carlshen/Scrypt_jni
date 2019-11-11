@@ -7,7 +7,7 @@
 #include <jni.h>
 #include "crypto_scrypt.h"
 
-jbyteArray JNICALL Java_io_merculet_scrypt_util_SignUtils_scryptN(JNIEnv *env, jclass cls, jbyteArray passwd, jbyteArray salt,
+jbyteArray JNICALL Java_io_tongxin_scrypt_SignUtils_scryptN(JNIEnv *env, jclass cls, jbyteArray passwd, jbyteArray salt,
                            jint N, jint r, jint p, jint dkLen)
 {
     jint Plen = (*env)->GetArrayLength(env, passwd);

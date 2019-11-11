@@ -1,4 +1,4 @@
-package io.merculet.scrypt.util;
+package io.tongxin.scrypt;
 
 /**
  * @version V1.0 <描述当前版本功能>
